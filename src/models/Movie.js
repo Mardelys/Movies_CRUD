@@ -35,4 +35,5 @@ const movieSchema = Schema(
   }
 );
 //se esporta el esquema, con la palabra models se cuestiona si esta hecho el modelo, "si en mongoose existe el modelo.movie" si no existe "||" este modelo sera v¿creado, en este caso se utiliza la palabra propia de mongose en singular model
+//Index pages
  export default models.Movie || model("Movie", movieSchema);
